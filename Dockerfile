@@ -1,3 +1,4 @@
+# Use the official OpenJDK image from the Docker Hub
 FROM openjdk:11-jre-slim
 
 # Set the working directory inside the container
