@@ -2,7 +2,7 @@
 FROM openjdk:11-jre-slim
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /ktor
 
 # Copy the build artifacts from the host to the container
 COPY build/libs/com.example.ktor-all.jar app.jar
